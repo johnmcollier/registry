@@ -1,4 +1,4 @@
-FROM scratch
+FROM quay.io/devfile/metadata-server
 
 COPY devfiles /devfiles
-COPY plugins /plugins
+COPY index.json /index.json
